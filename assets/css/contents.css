@@ -34,7 +34,7 @@
 
 .cardUpload { margin-top: 2.22vw; padding: 6.94vw 6.67vw 8.33vw; background-color: #fff; }
 
-.cardUpload label { display: block; margin: 2.78vw 0; width: 100%; height: 50.00vw; border: 0.28vw solid #e6e6e6; border-radius: 0.56vw; background: url("/assets/img/plusBtn.png") no-repeat center center; background-size: 3.06vw auto; }
+.cardUpload label { display: block; margin: 2.78vw 0; width: 100%; height: 50.00vw; border: 0.28vw solid #e6e6e6; border-radius: 0.56vw; background: url("../img/plusBtn.png") no-repeat center center; background-size: 3.06vw auto; }
 
 .cardUpload input[type="file"] { display: none; }
 
@@ -62,9 +62,9 @@
 
 .agreeWrap .agreeBtn a { display: block; position: relative; padding-left: 9.03vw; width: 100%; height: 6.67vw; line-height: 6.67vw; color: #666; }
 
-.agreeWrap .agreeBtn a::before { content: ""; position: absolute; left: 0; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); width: 6.67vw; height: 6.67vw; background: url("/assets/img/check_off.png") no-repeat center center; background-size: 6.67vw auto; }
+.agreeWrap .agreeBtn a::before { content: ""; position: absolute; left: 0; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); width: 6.67vw; height: 6.67vw; background: url("../img/check_off.png") no-repeat center center; background-size: 6.67vw auto; }
 
-.agreeWrap .agreeBtn.agreed a::before { background-image: url("/assets/img/check_on.png"); }
+.agreeWrap .agreeBtn.agreed a::before { background-image: url("../img/check_on.png"); }
 
 .applyBtn { padding: 13.89vw 6.67vw 6.67vw; background-color: #fff; }
 
