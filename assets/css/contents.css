@@ -1,0 +1,73 @@
+.headerWrap { width: 100%; height: 12.22vw; background-color: #fff; }
+
+.headerWrap h1 { font-size: 5.00vw; line-height: 12.22vw; font-weight: 700; text-align: center; }
+
+.mainCon { font-size: 3.33vw; }
+
+.mainCon h2 { font-size: 3.89vw; line-height: 1.4; }
+
+.subTxt { padding: 5.00vw 6.67vw 6.39vw; font-size: 3.89vw; text-align: center; line-height: 1.42; background-color: #fff; }
+
+.termsWrap { padding: 6.11vw 6.67vw; }
+
+.termsWrap li { position: relative; padding-left: 2.78vw; line-height: 1.5; color: #666; }
+
+.termsWrap li::before { content: ""; position: absolute; left: 0; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); width: 0.83vw; height: 0.83vw; background-color: #bbb; border-radius: 50%; }
+
+.privacyWrap { padding: 10.00vw 6.67vw 8.89vw; background-color: #fff; }
+
+.privacyWrap div + div { margin-top: 4.86vw; }
+
+.privacyWrap div label { display: block; margin-bottom: 2.22vw; font-size: 3.89vw; line-height: 1.42; }
+
+.privacyWrap div input[type="text"] { padding-left: 3.47vw; width: 100%; height: 11.11vw; font-size: 3.89vw; border: 0.28vw solid #e6e6e6; border-radius: 0.56vw; }
+
+.privacyWrap div input[type="text"]::-webkit-input-placeholder { color: #666; }
+
+.privacyWrap div input[type="text"]::-moz-placeholder { color: #666; }
+
+.privacyWrap div input[type="text"]:-ms-input-placeholder { color: #666; }
+
+.privacyWrap div input[type="text"]::-ms-input-placeholder { color: #666; }
+
+.privacyWrap div input[type="text"]::placeholder { color: #666; }
+
+.cardUpload { margin-top: 2.22vw; padding: 6.94vw 6.67vw 8.33vw; background-color: #fff; }
+
+.cardUpload label { display: block; margin: 2.78vw 0; width: 100%; height: 50.00vw; border: 0.28vw solid #e6e6e6; border-radius: 0.56vw; background: url("/assets/img/plusBtn.png") no-repeat center center; background-size: 3.06vw auto; }
+
+.cardUpload input[type="file"] { display: none; }
+
+.cardUpload p { color: #999; line-height: 1.4; }
+
+.cardUpload .fileWrap { display: none; overflow: hidden; margin: 2.78vw 0; position: relative; width: 100%; height: 50.00vw; border: 0.28vw solid #e6e6e6; border-radius: 0.56vw; }
+
+.cardUpload .fileWrap > img { position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+
+.cardUpload .fileWrap a { position: absolute; width: 6.67vw; right: 3.33vw; top: 3.33vw; }
+
+.cardUpload.upload label { display: none; }
+
+.cardUpload.upload .fileWrap { display: block; }
+
+.agreeWrap { margin-top: 2.22vw; padding: 6.94vw 6.67vw 6.67vw 6.67vw; background-color: #fff; }
+
+.agreeTxt { overflow-x: hidden; overflow-y: scroll; margin: 2.78vw 0; padding: 6.11vw 4.17vw; width: 100%; height: 55.56vw; border: 0.28vw solid #e6e6e6; border-radius: 0.56vw; }
+
+.agreeTxt dl dt { margin-bottom: 2.78vw; font-weight: 700; }
+
+.agreeTxt dl dd { line-height: 1.5; color: #666; }
+
+.agreeTxt dl dd + dd { margin-top: 5.00vw; }
+
+.agreeWrap .agreeBtn a { display: block; position: relative; padding-left: 9.03vw; width: 100%; height: 6.67vw; line-height: 6.67vw; color: #666; }
+
+.agreeWrap .agreeBtn a::before { content: ""; position: absolute; left: 0; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); width: 6.67vw; height: 6.67vw; background: url("/assets/img/check_off.png") no-repeat center center; background-size: 6.67vw auto; }
+
+.agreeWrap .agreeBtn.agreed a::before { background-image: url("/assets/img/check_on.png"); }
+
+.applyBtn { padding: 13.89vw 6.67vw 6.67vw; background-color: #fff; }
+
+.applyBtn a { display: block; width: 100%; height: 12.22vw; line-height: 12.22vw; font-size: 4.17vw; text-align: center; font-weight: 700; background-color: #222; border-radius: 0.56vw; color: #fff; }
+
+/*# sourceMappingURL=maps/contents.css.map */
